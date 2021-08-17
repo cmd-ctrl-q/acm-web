@@ -1,0 +1,39 @@
+.membershipPara{
+    background-color: rgba(230, 230, 230, 0.89);
+    display: block;
+    width:80%;
+    min-height: 77vh;
+    /*zheight:auto;*/
+    border-radius: .75em;
+    margin:auto;
+    position: static;
+    padding: 3em;
+} 
+
+.membershipPage{
+    padding-top: 110px;
+    padding-bottom: 15px;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+.square{
+    height: auto;
+    width:15%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.forms{
+    height: 30px;
+    width: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.icon{
+    height: 15%;
+    width: 15%;
+    margin-left: auto;
+    margin-right: auto;
+}

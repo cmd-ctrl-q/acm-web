@@ -1,0 +1,53 @@
+.calPage{
+    margin-top: 12rem;
+    height: 65rem;
+}
+
+.paraCont{
+    background-color: rgba(230, 230, 230, 0.89);
+    display: block;
+    width:85%;
+    height:90%;
+    border-radius: .75em;
+    margin:auto;
+    position: relative;
+    padding: 3em;
+} 
+
+body {
+    height: 100%;
+    box-sizing: padding-box;
+}
+
+.demo-container {
+    height: 100%;
+    box-sizing: padding-box;
+}
+
+#app {
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.dx-scheduler {
+    height: 100%;
+}
+
+.dx-scheduler.dx-scheduler-readonly.dx-widget.dx-visibility-change-handler {
+    box-sizing: border-box;
+    padding-bottom: 56px;
+    height: 100%;
+    width: inherit;
+    display: block;
+    
+}
+
+.long-title, .h3 {
+    font-family: 'Segoe UI Light', 'Helvetica Neue Light', 'Segoe UI', 'Helvetica Neue', 'Trebuchet MS', Verdana;
+    font-weight: 200;
+    font-size: 28px;
+    text-align: center;
+    vertical-align: middle;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}

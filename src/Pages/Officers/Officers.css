@@ -1,0 +1,49 @@
+.officersPara{
+    background-color: rgba(230, 230, 230, 0.89);
+    display: block;
+    width:80%;
+    height:auto;
+    border-radius: .75em;
+    margin:auto;
+    position: relative;
+    padding: 3em;
+} 
+
+.officersPage{
+    padding-top: 5rem;
+    padding-bottom: 15px;
+    margin-top: 8rem;
+    margin-bottom: 4rem;
+}
+
+.grid{
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+}
+
+.officersContainer{
+    display: flex;
+    flex-direction: row;
+    column-gap: 2%;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+div.box.card:hover {
+    background-color: lightgray;
+}
+
+div.box.card {
+    max-width: 25%;
+    
+    margin: 45px;
+}
+
+div.cBody.card-body {
+    background-color:ghostwhite;
+}
+
+
