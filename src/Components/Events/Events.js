@@ -18,7 +18,7 @@ const Events = () => {
   }, [])
 
   const getEvents = () => {
-     axios.get(`http://localhost:8081/api/events`)
+     axios.get(`http://localhost:${process.env.PORT}/api/events`)
          .then(((response) => {  
              setEvents(response.data);
              setEventsIsLoaded(true);

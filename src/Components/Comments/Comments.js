@@ -14,7 +14,7 @@ const Comments = (match) => {
     }, []);
 
     const GetComments = () => {
-        axios.get(`http://localhost:8081/api/events/${match.eventID}/comments`)
+        axios.get(`http://localhost:${process.env.PORT}/api/events/${match.eventID}/comments`)
             .then((res) => {
                 setComments(res.data);
                 setCommentsLoaded(true);

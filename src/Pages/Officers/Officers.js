@@ -33,7 +33,7 @@ const Officers = () => {
     }, [])
 
     const getEvent = () => {
-       axios.get(`http://localhost:8081/api/members/officers`)
+       axios.get(`http://localhost:${process.env.PORT}/api/members/officers`)
            .then(((response) => {  
                setOfficers(response.data);
                setOfficersIsLoaded(true);

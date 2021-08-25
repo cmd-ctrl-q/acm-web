@@ -12,7 +12,7 @@ const Archives = () => {
     // }, [])
 
     // const getArchives = () => {
-    //     axios.get(`http://localhost:8081/api/archives`)
+    //     axios.get(`http://localhost:${process.env.PORT}/api/archives`)
     //         .then(((response) => {
     //             setArchives(response.data);
     //             setArchivesIsLoaded(true);

@@ -31,7 +31,7 @@ export class EventsPage extends Component {
     const eventsChannel = "817106404842143805" 
 
     // fetch latest pin 
-    axios.get("http://localhost:8081/api/pins/channel?id="+eventsChannel).then((response) => {
+    axios.get("http://localhost:${process.env.PORT}/api/pins/channel?id="+eventsChannel).then((response) => {
       this.setState({ 
         pin: response.data, 
         pinIsLoaded: true,

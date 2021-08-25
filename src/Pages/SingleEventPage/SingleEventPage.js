@@ -19,7 +19,7 @@ const SingleEventPage = ({ match }) => {
     }, [])
 
     const getEvent = () => {
-       axios.get(`http://localhost:8081/api/events/${match.params.id}`)
+       axios.get(`http://localhost:${process.env.PORT}/api/events/${match.params.id}`)
            .then(((response) => {  
                setEvent(response.data);
                setEventIsLoaded(true);

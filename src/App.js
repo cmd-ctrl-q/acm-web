@@ -29,7 +29,7 @@ function App() {
           <Route exact path='/calendar' component={Calendar} />
           <Route exact path='/officers' component={Officers} />
           <Route exact path='/resources' component={Resources} />
-          <Route exact path='/archives' component={Archives} />
+          {/* <Route exact path='/archives' component={Archives} /> */}
           <Route exact path='/membership' component={Membership}/>
         </Switch>
         
