@@ -15,29 +15,6 @@ function getData(_, requestOptions) {
     ).then((data) => data.items);
 }
 
-// function getEvents() {
-//     let that = this;
-//     function start() {
-//         gapi.client.init({
-//             'apiKey': 'AIzaSyDoBXwZDgJdowyJC0rsJ_RaEuKP6LaDqPQ'
-//         }).then(function () {
-//             return gapi.client.request({
-//                 'path': 'https://www.googleapis.com/calendar/v3/calendars/${c_9optv6njchcc4qck9sjn7vghm8@group.calendar.google.com}/events',
-//         })
-//       }).then( (response) => {
-//         let events = response.result.items
-//         that.setState({
-//           events
-//         }, ()=>{
-//           console.log(that.state.events);
-//         })
-//       }, function(reason) {
-//         console.log(reason);
-//       });
-//     }
-//     gapi.load('client', start)
-//   }
-
 const dataSource = new CustomStore({
     load: (options) => getData(options, { showDeleted: false })
 });

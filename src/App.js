@@ -1,7 +1,6 @@
 import './App.css';
 import NavigationBar from './Components/NavigationBar/NavigationBar';
-import { BrowserRouter } from 'react-router-dom';
-import { Route, Switch } from 'react-router';
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Home from './Pages/Home/Home.js';
 import Calendar from './Pages/Calendar/CalendarApp.js';
@@ -18,11 +17,11 @@ function App() {
       <BrowserRouter>
       <NavigationBar />
         <Switch>
-          <Route path={"/"} component={Home} />
-          <Route path={'/calendar'} component={Calendar} />
-          <Route path={'/officers'} component={Officers} />
-          <Route path={'/resources'} component={Resources} />
-          <Route path={'/membership'} component={Membership}/>
+          <Route path='/calendar' component={Calendar} />
+          <Route path='/officers' component={Officers} />
+          <Route path='/resources' component={Resources} />
+          <Route path='/membership' component={Membership}/>
+          <Route path="/" component={Home} exact />
         </Switch>
         
       </BrowserRouter>
