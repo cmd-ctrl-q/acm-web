@@ -13,29 +13,22 @@ import Membership from './Pages/Membership/Membership';
 
 function App() {
 
-  let url = process.env.ACM_URL || '/acm';
-
   return (
     <div className="App">
-      <BrowserRouter basename={url}>
+      <BrowserRouter>
       <NavigationBar />
         <Switch>
-          <Route exact path={url} component={Home} />
-          <Route exact path={'/calendar'} component={Calendar} />
-          <Route exact path={'/officers'} component={Officers} />
-          <Route exact path={'/resources'} component={Resources} />
-          <Route exact path={'/membership'} component={Membership}/>
-          {/* <Route exact path='/archives' component={Archives} /> */}
-          {/* <Route path={`/event/:id`} exact strict component={SingleEventPage} /> */}
-          {/* <Route exact path='/events' exact strict component={EventsPage} /> */}
+          <Route path={"/"} component={Home} />
+          <Route path={'/calendar'} component={Calendar} />
+          <Route path={'/officers'} component={Officers} />
+          <Route path={'/resources'} component={Resources} />
+          <Route path={'/membership'} component={Membership}/>
         </Switch>
         
-        {/* Render components in app*/}
       </BrowserRouter>
       
       <Footer/>
       <ScrollToTop />
-      
     </div>
 
   );
