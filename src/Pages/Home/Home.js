@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "./Home.css";
-import VideoPlayback from '../../Media/Videos/VideoPlayback.js';
+// import VideoPlayback from '../../Media/Videos/VideoPlayback.js';
 
 
 class Home extends Component {
@@ -9,7 +9,7 @@ class Home extends Component {
       
       <div className="homePage">
 
-        <VideoPlayback />
+        {/* <VideoPlayback /> */}
         <div className="discord-thing">
           
           
