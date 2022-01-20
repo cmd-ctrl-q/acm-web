@@ -16,7 +16,7 @@ class Membership extends Component {
           <br></br>
           <br></br>
           <div className = "icon">
-            <img src = {acm}></img>
+            <img alt='acm' src = {acm}></img>
           </div>
           <br></br>
           <br></br>
@@ -34,7 +34,7 @@ class Membership extends Component {
             </a>
           </div>
           <div className = "form1">
-            <a src = {pdf}>
+            <a href='#!' src = {pdf}>
             <p>SELU ACM Membership Form</p>
             </a>
           </div>

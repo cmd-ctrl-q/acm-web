@@ -1,18 +1,17 @@
 import React, { Component } from "react";
 import "./Home.css";
-// import VideoPlayback from '../../Media/Videos/VideoPlayback.js';
+import VideoPlayback from '../../Media/Videos/VideoPlayback.js';
 
 
 class Home extends Component {
   render() {
     return (
-      
+
       <div className="homePage">
 
-        {/* <VideoPlayback /> */}
+        <VideoPlayback />
         <div className="discord-thing">
-          
-          
+
         </div>
         <div className="" ref={this.myRef}>
                 <div className="deta">

@@ -1,10 +1,6 @@
 import React, { Component } from "react";
-import { Button, Form, FormGroup, Label, Input, FormText } from "reactstrap";
 import "./Footer.css";
 import {
-    BrowserRouter as Router,
-    Switch,
-    Route,
     Link
   } from "react-router-dom";
 import LOGO from '../image/SoutheasternLogo.png'
@@ -19,11 +15,11 @@ class Footer extends Component {
                 <div class = "Column1">
                     <div class = "feetpics">
                         <a href="https://www.southeastern.edu/">
-                        <div class="selu" tag={Link} to='/'><img style = {{height: '55px', width: '50px', marginRight: '10px'}} src = {LOGO} /></div>
+                        <div class="selu" tag={Link} to='/'><img alt='logo' style = {{height: '55px', width: '50px', marginRight: '10px'}} src = {LOGO} /></div>
                         </a>
                         <br></br>
                        
-                    <div class="acm" tag={Link} to='$'><img style = {{height: '55px', width: '50px', marginRight: '10px'}} src = {ACM} /></div>
+                    <div class="acm" tag={Link} to='$'><img alt='acm' style = {{height: '55px', width: '50px', marginRight: '10px'}} src = {ACM} /></div>
                         
                     </div>
                         <div class = "address">

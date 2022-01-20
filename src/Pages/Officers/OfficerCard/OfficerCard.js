@@ -27,7 +27,7 @@ const OfficerCard = () => {
       <CardBody className="cBody">
         
         <CardTitle className="cTitle" tag="h5">{card.title}</CardTitle>
-        <CardSubtitle className="cTitle" tag="h6" className="mb-2 text-muted">{card.subtitle}</CardSubtitle>
+        <CardSubtitle tag="h6" className="cTitle mb-2 text-muted">{card.subtitle}</CardSubtitle>
         <CardText className="cText">{card.text}</CardText>
         
       </CardBody>
